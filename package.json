@@ -4,8 +4,12 @@
   "version": "0.1.0",
   "author": "Oluwole Adebiyi, Tofunmi Kupoluyi",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mozartted/rave-react-native.git"
+  },
   "scripts": {
-    "clean-install": "rm -rf node_modules && yarn"
+    "postinstall": "rm -rf node_modules"
   },
   "dependencies": {
     "axios": "^0.18.0",
