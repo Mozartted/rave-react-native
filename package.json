@@ -8,9 +8,6 @@
     "type": "git",
     "url": "https://github.com/Mozartted/rave-react-native.git"
   },
-  "scripts": {
-    "postinstall": "rm -rf node_modules"
-  },
   "dependencies": {
     "axios": "^0.18.0",
     "card-validator": "^5.0.0",
